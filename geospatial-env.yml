@@ -1,0 +1,15 @@
+# Geospatial Environment
+# This environment is meant for working with geospatial entities.
+name: geo-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - rios
+  - pysal
+  - rasterio
+  - geopandas
+  - qgis
+  - rio-cogeo
+  # For jupyter notebook/lab
+  - ipykernel
