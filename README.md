@@ -1,2 +1,3 @@
 # conda-envs
-A collection of conda envrionment variables.
+
+A collection of conda environment spec files.

@@ -1,0 +1,10 @@
+# General Python environment
+# This environment is for general Python development
+name: py-general
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - ipython
+  - conda-lock

@@ -1,7 +1,10 @@
+# Conda packaging environment file
+# This file is used to create a conda environment for packaging conda packages
 name: conda-builder
 channels:
   - conda-forge
 dependencies:
-  - python=3.6
+  - python=3.11
   - grayskull
   - conda-build
+  - conda-lock

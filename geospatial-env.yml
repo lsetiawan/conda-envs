@@ -4,7 +4,7 @@ name: geo-env
 channels:
   - conda-forge
 dependencies:
-  - python=3.6
+  - python=3.11
   - rios
   - pysal
   - rasterio
@@ -15,5 +15,3 @@ dependencies:
   - ipykernel
   # pip
   - pip
-  - pip:
-    - git+https://github.com/cogeotiff/rio-tiler.git
