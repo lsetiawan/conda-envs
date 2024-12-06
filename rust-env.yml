@@ -1,0 +1,12 @@
+# General Rust environment
+# This environment is for general Rust development
+name: rust-general
+channels:
+  - conda-forge
+dependencies:
+  - rust
+  - openssl
+  - pkg-config
+  - compilers
+  - clang
+  - rust-src
